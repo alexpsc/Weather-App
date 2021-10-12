@@ -151,6 +151,13 @@ h2 {
   max-width: 95%;
 }
 
+#back1 {
+  background-color: #046f94;
+  border-radius: 1rem;
+  color: azure;
+  max-width: 95%;
+}
+
 #days-list {
   display: flex;
   justify-content: center;
@@ -158,7 +165,7 @@ h2 {
 
 #pic {
   width: 70%;
-  height: 45vh;
+
   margin: auto;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -190,6 +197,13 @@ h2 {
   .flex-nav {
     display: flex;
     flex-direction: column;
+  }
+
+  #back1 {
+    background-color: #046f94;
+    border-radius: 1rem;
+    color: azure;
+    width: 40vw;
   }
   .btn {
     font-size: 8px;
@@ -265,6 +279,10 @@ h2 {
 
   #forecast-city {
     font-size: 1rem;
+  }
+
+  #back1 {
+    min-width: 50vw;
   }
 }
 
